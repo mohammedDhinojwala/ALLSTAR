@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 
 
@@ -9,107 +9,89 @@ import bestSeo from '../../assets/images/best_cms_for_seo_in_2025.png';
 function BestCMSForSeoIn2025() {
   return (
       
-         <HelmetProvider>
-      <div>
-        {/* ====================== SEO SECTION ====================== */}
-        <Helmet>
-          <title>Best CMS for SEO in 2025 | WordPress, Webflow, Shopify, Framer, Wix</title>
-          <title>Best CMS for SEO in 2025 (Rank #1 on Google) | WordPress vs Webflow vs Shopify</title>
-
-<meta 
-    name="description" 
-    content="Looking for the best CMS for SEO in 2025? Discover which CMS — WordPress, Webflow, Shopify, Framer, or Wix — helps you rank faster on Google. Compare SEO performance, speed, and scalability to choose the best SEO-friendly CMS for startups and businesses." 
-  />
-
-  <script type="application/ld+json">{`
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Best CMS for SEO in 2025 – Compare WordPress, Webflow, Shopify, Framer & Wix",
-      "description": "Discover the best CMS platforms for SEO in 2025. We compare WordPress, Webflow, Shopify, Framer, and Wix to help you choose the most SEO-friendly platform for performance, control, and ranking.",
-      "image": "https://yourdomain.com/images/best_cms_for_seo_in_2025.png",
-      "author": {
-        "@type": "Person",
-        "name": "Allstars Team",
-        "url": "https://yourdomain.com/about"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Allstars Web Agency",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://yourdomain.com/images/logo.png"
-        }
-      },
-      "datePublished": "2025-10-24",
-      "dateModified": "2025-10-24",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://yourdomain.com/blog/best-cms-for-seo-in-2025"
-      }
-    }
-  `}</script>
-
-
-<meta 
-  name="keywords" 
-  content="best cms for seo, which cms is best for seo, best seo cms, best cms platform for seo, best cms for startups, wordpress vs webflow, shopify seo, seo friendly cms, webflow seo 2025, wordpress seo 2025, shopify vs wordpress seo, cms comparison 2025, seo optimized cms" 
-/>
-
-<link 
-  rel="canonical" 
-  href="https://yourdomain.com/blog/best-cms-for-seo-in-2025" 
-/>
-
-<meta 
-  property="og:title" 
-  content="Best CMS for SEO in 2025 | Compare WordPress, Webflow, Shopify, Framer & Wix" 
-/>
-
-<meta 
-  property="og:description" 
-  content="Compare the top SEO-friendly CMS platforms in 2025 — WordPress, Webflow, Shopify, Framer, and Wix. Learn which CMS helps you rank higher, load faster, and scale smarter." 
-/>
-
-<meta 
-  property="og:image" 
-  content="https://www.alllstars.com/images/best_cms_for_seo_in_2025.png" 
-/>
-
-<meta 
-  property="og:type" 
-  content="article" 
-/>
-
-<meta 
-  property="og:url" 
-  content="https://www.alllstars.com/blog/best-cms-for-seo-in-2025" 
-/>
-
-<meta 
-  name="twitter:card" 
-  content="summary_large_image" 
-/>
-
-<meta 
-  name="twitter:title" 
-  content="Best CMS for SEO in 2025 | WordPress vs Webflow vs Shopify" 
-/>
-
-<meta 
-  name="twitter:description" 
-  content="Find out which CMS ranks best for SEO in 2025 — WordPress, Webflow, Shopify, Framer, or Wix. The ultimate CMS SEO comparison for startups and businesses." 
-/>
-
-<meta 
-  name="twitter:image" 
-  content="https://www.alllstars.com/images/best_cms_for_seo_in_2025.png" 
-/>
-        </Helmet>
-
-        
-      </div>
+         
+      
     
+  <div className="best-cms-page"> 
+
+          {/* ====================== SEO SECTION ====================== */}
+
+<title>Best CMS for SEO in 2025 | WordPress, Webflow, Shopify, Framer, Wix</title>
+<meta
+  name="description"
+  content="Looking for the best CMS for SEO in 2025? Discover which CMS — WordPress, Webflow, Shopify, Framer, or Wix — helps you rank faster on Google. Compare SEO performance, speed, and scalability to choose the best SEO-friendly CMS for startups and businesses."
+/>
+<meta
+  name="keywords"
+  content="Best CMS 2025, SEO CMS comparison, WordPress, Webflow, Shopify, Framer, Wix"
+/>
+
+{/* ✅ Canonical tag */}
+<link
+  rel="canonical"
+  href="https://https://www.alllstars.com/blog/best-cms-for-seo-in-2025"
+/>
+
+{/* ✅ Open Graph (for Facebook, LinkedIn) */}
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Best CMS for SEO in 2025 | WordPress, Webflow, Shopify, Framer, Wix" />
+<meta
+  property="og:description"
+  content="Discover which CMS helps you rank faster on Google — WordPress, Webflow, Shopify, Framer, or Wix."
+/>
+<meta
+  property="og:image"
+  content="https://https://www.alllstars.com/images/best_cms_for_seo_in_2025.png"
+/>
+<meta
+  property="og:url"
+  content="https://https://www.alllstars.com/blog/best-cms-for-seo-in-2025"
+/>
+
+{/* ✅ Twitter Cards */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Best CMS for SEO in 2025 | WordPress, Webflow, Shopify, Framer, Wix" />
+<meta
+  name="twitter:description"
+  content="Compare the best CMS platforms for SEO in 2025 — WordPress, Webflow, Shopify, Framer & Wix."
+/>
+<meta
+  name="twitter:image"
+  content="https://https://www.alllstars.com/images/best_cms_for_seo_in_2025.png"
+/>
+
+{/* ✅ Structured Data (JSON-LD Schema) */}
+<script type="application/ld+json">{`
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Best CMS for SEO in 2025 – Compare WordPress, Webflow, Shopify, Framer & Wix",
+  "description": "Discover the best CMS platforms for SEO in 2025. We compare WordPress, Webflow, Shopify, Framer, and Wix to help you choose the most SEO-friendly platform for performance, control, and ranking.",
+  "image": "https://https://www.alllstars.com/images/best_cms_for_seo_in_2025.png",
+  "author": {
+    "@type": "Person",
+    "name": "Allstars Team",
+    "url": "https://https://www.alllstars.com/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Allstars Web Agency",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://https://www.alllstars.com/images/logo.png"
+    }
+  },
+  "datePublished": "2025-10-24",
+  "dateModified": "2025-10-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://https://www.alllstars.com/blog/best-cms-for-seo-in-2025"
+  }
+}
+`}</script>
+
+{/* ✅ Optional: sitemap link */}
+<link rel="sitemap" type="application/xml" href="https://https://www.alllstars.com/sitemap.xml" />
 
         {/* HERO SECTION */}
         <div className="hero-webgrowth-blog w-[100vw] h-auto !mt-10  ">
@@ -147,6 +129,7 @@ function BestCMSForSeoIn2025() {
                   </div>
                 </div>
               </div>
+
               <div className="hero-photo w-[97.5%]  h-[40%] rounded-xl overflow-hidden lg:!w-[99%] lg:!h-[40%]">
                 <img loading='lazy' className='w-[100%] h-[100%]' src={bestSeo} alt="Best CMS for SEO in 2025 comparison chart" />
               </div>
@@ -797,13 +780,14 @@ Plugin Bottlenecks: Too many plugins can slow down performance or create compati
 
               </div>
           
-
+</div>  
               
 
           </div>
 
           
-        </div>
+  
+  </div>
   
         
   
@@ -820,7 +804,7 @@ Plugin Bottlenecks: Too many plugins can slow down performance or create compati
   
         
       
-      </HelmetProvider>
+     
     )
 }
 

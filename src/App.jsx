@@ -17,7 +17,7 @@ import Practise from './components/locations/Practise';
 import HowtoCreateYourPersonalWebsiteBeforeCollegeApps from './components/Blog/HowtoCreateYourPersonalWebsiteBeforeCollegeApps';
 import BlogMain from './components/Blog/BlogMain';
 import WebGrowth from './components/Blog/WebGrowth';
-import BestCMSForSeoIn2025 from './components/Blog/BestCMSForSeoIn2025';
+import BestCMSForSeoIn2025 from './components/Blog/BestCMSForSeoIn2025,jsx';
 
 
 const PageLayout = () => (
