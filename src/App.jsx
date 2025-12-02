@@ -16,8 +16,10 @@ import TempaFlorida from './components/locations/TempaFlorida';
 import Practise from './components/locations/Practise';
 import HowtoCreateYourPersonalWebsiteBeforeCollegeApps from './components/Blog/HowtoCreateYourPersonalWebsiteBeforeCollegeApps';
 import BlogMain from './components/Blog/BlogMain';
+import BlogBox from './components/Blog/BlogBox';
 import WebGrowth from './components/Blog/WebGrowth';
 import BestCMSForSeoIn2025 from './components/Blog/BestCmsForSeoIn2025';
+import ShopifySpeedUpBlog from './components/Blog/ShopifySpeedUpBlog';
 
 
 const PageLayout = () => (
@@ -71,10 +73,12 @@ function App() {
         { path: '/planetglass', element: <Planetglass /> },
         { path: '/tempa-florida', element: <TempaFlorida /> },
         { path: '/practise', element: <Practise /> },
-        { path: '/blog', element: <BlogMain /> }, // FIXED ROUTE
+        { path: '/blogTemp', element: <BlogMain /> }, // FIXED ROUTE
+        { path: '/blog', element: <BlogBox /> }, // FIXED ROUTE
         { path: '/web-growth', element: <WebGrowth /> },
         { path: '/how-to-create-your-personal-website-before-college-apps', element: <HowtoCreateYourPersonalWebsiteBeforeCollegeApps/>  },
-        { path: '/Best-CMS-for-seo-in-2025', element: <BestCMSForSeoIn2025 />  }
+        { path: '/Best-CMS-for-seo-in-2025', element: <BestCMSForSeoIn2025 />  },
+        { path: '/Shopify-SpeedUp-blog', element: <ShopifySpeedUpBlog />  }
        
       ],
     },

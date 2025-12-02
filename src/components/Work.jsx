@@ -14,10 +14,10 @@ function Work() {
 
   const projects = [
     { id: 1, name: "Planet Glass", category: "Web Development, UI Design, Branding" },
-    { id: 2, name: "Sam Realty", category: "UI Design, Animation" },
-    { id: 3, name: "Ferry Lawn", category: "Backend API, SEO, Hosting" },
-    { id: 4, name: "Luzia Branding", category: "E-commerce, Analytics" },
-    { id: 5, name: "Nova Studio", category: "SEO Optimization, Marketing, Cloud" }
+    // { id: 2, name: "Sam Realty", category: "UI Design, Animation" },
+    // { id: 3, name: "Ferry Lawn", category: "Backend API, SEO, Hosting" },
+    // { id: 4, name: "Luzia Branding", category: "E-commerce, Analytics" },
+    // { id: 5, name: "Nova Studio", category: "SEO Optimization, Marketing, Cloud" }
   ];
 
   const projectImages = {
